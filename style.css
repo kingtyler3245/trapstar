@@ -1,0 +1,58 @@
+body{
+    margin: 0; 
+    overflow-x: hidden;
+ }
+
+ nav{
+    display: flex;
+    gap: 30px;
+    justify-content: left;
+    background-color: black; 
+   
+ }
+ a{
+    color: white;
+    text-decoration: none;
+    margin-top: 30px;
+ }
+
+ .main-div{
+   display: grid;
+   grid-template-columns: auto auto auto auto;
+ }
+
+ .item{
+    width: 340px;
+    height: 340px;
+ }
+
+ footer{
+    display: flex;
+    gap: 90px; 
+ }
+
+ button{
+    background-color: black;
+    color: white;
+    display: block;
+    height: 40px;
+    width: 140px;
+ }
+
+ input{
+    height: 40px;
+    width: 230px;
+ }
+
+ .footer-div{
+    display: flex;
+ }
+
+ .trapist{
+    height: 70px;
+    width: 200px;
+ }
+
+ .foot-p{
+    margin-top: 20px;
+ }
